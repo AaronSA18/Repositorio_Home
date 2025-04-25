@@ -13,6 +13,7 @@ public class Interfaz_G extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
+	private JButton btnProbarCambio;
 
 	/**
 	 * Launch the application.
@@ -49,5 +50,10 @@ public class Interfaz_G extends JFrame {
 		JButton btnNewButton = new JButton("Procesar");
 		btnNewButton.setBounds(149, 7, 89, 23);
 		contentPane.add(btnNewButton);
+		{
+			btnProbarCambio = new JButton("Probar cambio");
+			btnProbarCambio.setBounds(149, 60, 219, 23);
+			contentPane.add(btnProbarCambio);
+		}
 	}
 }
