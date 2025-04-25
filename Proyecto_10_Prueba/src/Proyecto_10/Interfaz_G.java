@@ -14,6 +14,10 @@ public class Interfaz_G extends JFrame {
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JButton btnProbarCambio;
+	private JButton btnLimpiar;
+	private JLabel lblNewLabel_1;
+	private JLabel lblNewLabel_2;
+	private JLabel lblNewLabel_3;
 
 	/**
 	 * Launch the application.
@@ -54,6 +58,26 @@ public class Interfaz_G extends JFrame {
 			btnProbarCambio = new JButton("Probar cambio");
 			btnProbarCambio.setBounds(149, 60, 219, 23);
 			contentPane.add(btnProbarCambio);
+		}
+		{
+			btnLimpiar = new JButton("Limpiar");
+			btnLimpiar.setBounds(119, 107, 219, 23);
+			contentPane.add(btnLimpiar);
+		}
+		{
+			lblNewLabel_1 = new JLabel("Pos por probar no?");
+			lblNewLabel_1.setBounds(10, 31, 134, 14);
+			contentPane.add(lblNewLabel_1);
+		}
+		{
+			lblNewLabel_2 = new JLabel("Pos por probar no?");
+			lblNewLabel_2.setBounds(10, 51, 134, 14);
+			contentPane.add(lblNewLabel_2);
+		}
+		{
+			lblNewLabel_3 = new JLabel("Pos por probar no?");
+			lblNewLabel_3.setBounds(10, 69, 134, 14);
+			contentPane.add(lblNewLabel_3);
 		}
 	}
 }
